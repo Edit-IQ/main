@@ -110,10 +110,6 @@ audio:not([controls]) {
   display: none;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 html,
 button,
 input,
@@ -18024,3 +18020,4 @@ fieldset {
 /*  border-bottom: solid 2px black;*/
   text-transform: lowercase;
 }
+
