@@ -17851,7 +17851,7 @@ fieldset {
 /* .................................... */
 .contact-client-section {
   display: flex;
-  flex-wrap: ;
+  /* flex-wrap: ; */
   background: #ffffff;
   padding: 40px;
   gap: 30px;
