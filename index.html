@@ -45,9 +45,13 @@
                                         <script>
                                             function scrollToContact() {
                                               const target = document.getElementById("contact");
+                                              const offset = 100; // change this based on your header height
+                                          
                                               if (target) {
+                                                const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                                          
                                                 window.scrollTo({
-                                                  top: target.offsetTop,
+                                                  top: targetPosition,
                                                   behavior: "smooth"
                                                 });
                                               }
