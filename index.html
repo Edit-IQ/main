@@ -40,7 +40,9 @@
                                     </div>
                                     <p class="title">Welcome to EditIQ , Make your Designs</p>
                                     <div class="purshase-btn">
-                                        <a href="#contact" class="rn-button-style--2 btn_solid">Contact Me</a>
+                                        <button onclick="scrollToContact()" class="rn-button-style--2 btn_solid">Contact Me</button>
+
+                                        <!-- <a href="#contact" class="rn-button-style--2 btn_solid">Contact Me</a> -->
                                         <a href="#demo" class="rn-button-style--2 btn_border btn_border--dark smoth-animation">View
                                             Design</a>
                                     </div>
@@ -221,6 +223,18 @@
                       </div>
                     </div>
                   </div>
+
+                  <script>
+                    function scrollToContact() {
+                      const target = document.getElementById("contact");
+                      if (target) {
+                        window.scrollTo({
+                          top: target.offsetTop,
+                          behavior: "smooth"
+                        });
+                      }
+                    }
+                  </script>
                   
                   <script>
                     function scrollClients(direction) {
