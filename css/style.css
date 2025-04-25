@@ -14532,7 +14532,7 @@ Call To Action Wrapper
   z-index: -1;
   opacity: 0.5;
 }
-.call-to-action .inner > span {
+.contact-client-section .inner > span {
   color: #fff;
   font-size: 15px;
   text-transform: uppercase;
@@ -14540,7 +14540,7 @@ Call To Action Wrapper
   display: block;
   margin-bottom: 9px;
 }
-.call-to-action .inner h2 {
+.contact-client-section .inner h2 {
   color: #ffffff;
   font-size: 75px;
   font-weight: 900;
@@ -14548,16 +14548,16 @@ Call To Action Wrapper
   line-height: 90px;
 }
 @media only screen and (max-width: 767px) {
-  .call-to-action .inner h2 {
+  .contact-client-section .inner h2 {
     font-size: 47px;
     line-height: 70px;
   }
 }
-.call-to-action .inner a.rn-button-style--2 {
+.contact-client-section .inner a.rn-button-style--2 {
   margin-top: 30px;
   background: transparent;
 }
-.call-to-action .inner a.rn-button-style--2:hover {
+.contact-client-section .inner a.rn-button-style--2:hover {
   background: #ffffff;
   border-color: #ffffff;
   color: #f9004d;
