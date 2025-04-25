@@ -14518,6 +14518,7 @@ Call To Action Wrapper
 -----------------------------*/
 .contact-client-section {
   background: linear-gradient(145deg, #f81f01 0%, #ee076e 100%);
+/*background: whitesmoke;*/
   position: relative;
   z-index: 2;
 }
@@ -14528,7 +14529,7 @@ Call To Action Wrapper
   left: 0;
   top: 0;
   background-image: url(../images/pattern-1.png);
-  /* content: ""; */
+  content: "";
   z-index: -1;
   opacity: 0.5;
 }
