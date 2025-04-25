@@ -177,39 +177,90 @@
                 <!-- End Home Demo  -->
 
 
-                <!-- Start Call To Action Area  -->
-                <div class="call-to-action-wrapper call-to-action text-white-wrapper  ptb--120">
-                    <div class="container">
-                        <h1 class="Contact" id="con">Contact Me</h1>
-                        <form
-  action="https://formspree.io/f/xpwdzkrw"
-  class="fs-form"
-  target="_top"
-  method="POST"
-enctype="text/plain"
->
-	<input type="hidden" name="_format" value="plain">			
-  <div class="fs-field">
-    <label class="fs-label" for="name">Name</label>
-    <input class="fs-input" id="name" name="name" required />
-  </div>
-  <div class="fs-field">
-    <label class="fs-label" for="email">Email</label>
-    <input class="fs-input" id="email" name="email" required />
-  </div>
-  <div class="fs-field">
-    <label class="fs-label" for="message">Message</label>
-    <textarea class="fs-textarea" id="message" name="message"></textarea>
-    <p class="fs-description">We respond within a few hours.</p>
-  </div>
-  <div class="fs-button-group">
-    <button class="fs-button" type="submit">Send</button>
-  </div>
-</form>    
-
+                <div class="contact-client-section">
+                    <!-- Contact Form -->
+                    <div class="contact-box">
+                      <h2 class="text-color">Contact Me</h2>
+                      <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="your-access-key" />
+                        <label class="text-color">Name</label>
+                        <input type="text" name="name" class="c-input1" required />
+                        <label class="text-color">Email</label>
+                        <input type="email" name="email" required class="c-email" />
+                        <label class="text-color">Message</label>
+                        <textarea name="message" rows="5" required class="c-input"></textarea>
+                        <button type="submit">Contact Me</button>
+                      </form>
                     </div>
-                </div>
-                <!-- End Call To Action Area  -->
+                  
+                    <!-- Client Reviews -->
+                    <div class="client-review-box">
+                      <h2 class="text-color">My Clients</h2>
+                      <div class="client-carousel-wrapper">
+                        <button class="arrow left" onclick="scrollClients('left')">&#10094;</button>
+                        <div class="client-carousel" id="clientCarousel">
+                          <!-- Repeat this block for each client -->
+                          <div class="client-card">
+                            <div class="client-img">
+                              <img src="images/clinets/client1.png" alt="Client 1" />
+                            </div>
+                            <h4>Funded Brothers</h4>
+                            <p>"Amazing work!"</p>
+                          </div>
+                          <div class="client-card">
+                            <div class="client-img">
+                              <img src="images/clients/client2.jpg" alt="Client 2" />
+                            </div>
+                            <p>"Highly professional."</p>
+                          </div>
+                          <div class="client-card">
+                            <div class="client-img">
+                              <img src="images/clients/client3.jpg" alt="Client 3" />
+                            </div>
+                            <p>"Quick turnaround."</p>
+                          </div>
+                  
+                          <div class="client-card">
+                            <div class="client-img">
+                              <img src="images/clients/client3.jpg" alt="Client 3" />
+                            </div>
+                            <p>"Quick turnaround."</p>
+                          </div>
+                  
+                          <div class="client-card">
+                            <div class="client-img">
+                              <img src="images/clients/client3.jpg" alt="Client 3" />
+                            </div>
+                            <p>"Quick turnaround."</p>
+                          </div>
+                  
+                             <div class="client-card">
+                            <div class="client-img">
+                              <img src="images/clients/client3.jpg" alt="Client 3" />
+                            </div>
+                            <p>"Quick turnaround."</p>
+                          </div>
+                  
+                  
+                      
+                  
+                          <!-- Add more client-card as needed -->
+                        </div>
+                        <button class="arrow right" onclick="scrollClients('right')">&#10095;</button>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <script>
+                    function scrollClients(direction) {
+                      const carousel = document.getElementById("clientCarousel");
+                      const scrollAmount = 200; // or 300 depending on your design
+                      carousel.scrollBy({
+                        left: direction === "right" ? scrollAmount : -scrollAmount,
+                        behavior: "smooth"
+                      });
+                    }
+                  </script>
 
                 <!-- Start Footer Style Two  -->
                 <div class="footer-style-2 ptb--30 bg_image bg_image--1" data-black-overlay="6">

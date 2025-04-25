@@ -17845,3 +17845,178 @@ fieldset {
   text-align: center;
   color: white;
 }
+
+
+
+/* .................................... */
+.contact-client-section {
+  display: flex;
+  flex-wrap: ;
+  background: #ffffff;
+  padding: 40px;
+  gap: 30px;
+  border-radius: 20px;
+}
+
+.contact-box {
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
+  background: #cd000012;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.contact-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+/*  color: white;*/
+}
+
+.contact-box label {
+  display: block;
+  margin: 0px 0 12px;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+}
+
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.contact-box button {
+  background: #0066cc;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-box button:hover {
+  background: #004a99;
+}
+
+.client-review-box {
+  flex: 2;
+  min-width: 300px;
+  position: relative;
+  padding: 20px;
+  background: #cd000012;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.client-review-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+/*  color: white;*/
+}
+
+.client-carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.client-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 10px 0;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.client-carousel::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+
+.client-card {
+  min-width: 253px;
+  min-height: 402px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+}
+
+.client-img img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid darkblue;
+  margin-bottom: 10px;
+}
+
+.arrow {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+/*  background: #0066cc;*/
+  border: none;
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+  transition: background 0.3s;
+}
+
+.arrow:hover {
+  background: #f801ee29;
+  border-radius: 50%;
+}
+
+.arrow.left {
+  left: 0;
+}
+
+.arrow.right {
+  right: 0;
+}
+
+.c-input{
+  box-shadow: 4px 3px 9px rgba(0, 0, 0, 0.2);
+}
+.c-input1{
+  border-bottom: solid 2px black;
+/*  border-color: black;*/
+}
+
+.text-color {
+  color: black;
+}
+
+.contact-box input{
+   border-bottom: solid 2px black;
+}
+.c-input1 {
+  text-transform: capitalize;
+}
+
+.c-email {
+/*  border-bottom: solid 2px black;*/
+  text-transform: lowercase;
+}
+
