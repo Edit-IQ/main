@@ -18025,3 +18025,85 @@ fieldset {
   text-transform: lowercase;
 }
 
+/* General Styles */
+.contact-client-section {
+  padding: 20px;
+}
+
+.contact-box, .client-review-box {
+  margin-bottom: 20px;
+}
+
+.contact-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-box input, .contact-box textarea, .contact-box button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.client-carousel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.client-carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+}
+
+.client-card {
+  min-width: 200px;
+  text-align: center;
+}
+
+.client-img img {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .contact-box, .client-review-box {
+      width: 100%;
+      padding: 15px;
+  }
+
+  .client-carousel-wrapper {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .client-carousel {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+  }
+
+  .client-card {
+      min-width: 150px;
+      margin-bottom: 15px;
+  }
+
+  .contact-box input, .contact-box textarea, .contact-box button {
+      width: 100%;
+      font-size: 16px;
+  }
+
+  .arrow {
+      display: none; /* Hide arrows for mobile */
+  }
+}
+
+/* For smaller screens (mobile view) */
+@media (max-width: 480px) {
+  .client-card {
+      min-width: 120px;
+  }
+}
