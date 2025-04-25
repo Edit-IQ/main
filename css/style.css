@@ -110,6 +110,10 @@ audio:not([controls]) {
   display: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 button,
 input,
