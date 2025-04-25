@@ -14528,7 +14528,7 @@ Call To Action Wrapper
   left: 0;
   top: 0;
   background-image: url(../images/pattern-1.png);
-  content: "";
+  /* content: ""; */
   z-index: -1;
   opacity: 0.5;
 }
