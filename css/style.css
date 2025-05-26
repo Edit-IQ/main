@@ -17957,7 +17957,7 @@ fieldset {
   text-align: center;
   color: black;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 
   
  
